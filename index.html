@@ -69,13 +69,20 @@ https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-
 
         <!-- Landing page with video -->
         <section>
-            <article>
-        </article>
+            <article class="video-container">
+                <video autoplay loop muted>
+                    <source src="sources/vid/STDbackgroundVideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay">
+                    <img src="sources/podklady/STDwed.svg" alt="Shoot the door weddings">
+                </div>
+            </article>
         </section>
 
         <!-- Wedding video -->
         <section id="aboutUs">
-
+            <aside></aside>
             <article>
                 <h2>Svadobné video</h2>
                 <section>
@@ -103,23 +110,29 @@ https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-
                                     allowfullscreen></iframe>
                             </article>
                             <article>
-                                <iframe src="https://www.youtube.com/embed/eVQFfc6EO0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <iframe src="https://www.youtube.com/embed/tNUavveHW14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                    
+                                <iframe src="https://www.youtube.com/embed/eVQFfc6EO0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <iframe src="https://www.youtube.com/embed/tNUavveHW14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
                             </article>
                         </section>
                     </article>
 
-
                 </section>
             </article>
+            <aside></aside>
         </section>
 
         <!-- Team -->
         <section id="STDteam">
             <aside></aside>
-            <article>
-                <h2>STD team</h2>
-            </article>
+                    <article>
+                        <section>
+                        <img class="members" src="sources/podklady/davo.svg" alt="">
+                        <img class="members" src="sources/podklady/davo.svg" alt="">
+                        <img class="members" src="sources/podklady/davo.svg" alt="">
+                        </section>
+                    </article>
             <aside></aside>
         </section>
 
@@ -132,7 +145,7 @@ https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-
             <aside></aside>
         </section>
     </main>
-<footer></footer>
+    <footer></footer>
 </body>
 
 <script src="js/jquery.min.js"></script>
