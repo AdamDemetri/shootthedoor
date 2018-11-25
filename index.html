@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<!-- NOTE:
+//navbar
+https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf
+ -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="www.adamdemetri.com">
+  <title>SHOOT THE DOOR</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/desktop.css">
+  <link href="css/flag-icon.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <!-- generated on: //realfavicongenerator.net -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+  <main>
+    <nav>
+      <span id="navbarToggle">
+      <i class="fas fa-bars"></i>
+    </span>
+      <a href="#" class="logo"><img src="sources/podklady/ShootTheDoorInline.svg" alt="Shoot the door logo" height="20"></a>
+      <ul id="menu">
+        <li>
+          <a href="#">Domov</a>
+        </li>
+        <li>
+          <a href="#">Svadobné video</a>
+        </li>
+        <li>
+          <a href="#">Tím</a>
+        </li>
+        <li>
+          <a href="#">Kontakt</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">SK</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a><span class="flag-icon flag-icon-sk"></span></a>
+              <a><span  class="flag-icon flag-icon-us"></span></a>
+            </div>
+        </li>
+        <li class="hideForMobile">
+          <a href="#"><img class="icons" src="sources/icons/fb.svg"/></a>
+        </li>
+        <li class="hideForMobile">
+          <a href="#"><img class="icons" src="sources/icons/yt.svg"/></a>
+        </li>
+      </ul>
+    </nav>
+
+
+    <!-- Landing page with video -->
+    <section>
+      <div class="videoDiv">
+        <video loop muted autoplay poster="" class="video">
+            <source src="sources/vid/STDbackgroundVide.mp4" type="video/mp4">
+          </video>
+      </div>
+    </section>
+
+    <!-- Wedding video -->
+    <section id="aboutUs">
+      <aside></aside>
+      <article>
+      <h2>Svadobné video</h2>
+      </article>
+      <aside></aside>
+    </section>
+
+    <!-- Team -->
+    <section id="STDteam">
+      <article id="davo">
+
+      </article>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact">
+
+    </section>
+  </main>
+
+</body>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/vanilla.js"></script>
+
+
+</html>

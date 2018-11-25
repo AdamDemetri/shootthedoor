@@ -1,0 +1,238 @@
+[Wed Mar 21 15:59:47.099913 2018] [autoindex:error] [pid 13520] [client 88.212.37.43:65333] AH01276: Cannot serve directory /var/www/html/adamdemetri.com/web/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Thu Mar 22 00:03:15.974028 2018] [:error] [pid 16378] [client 213.121.251.251:58471] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Mar 22 05:58:54.198887 2018] [:error] [pid 17518] [client 82.165.140.254:51788] script '/var/www/html/adamdemetri.com/web/wp-dba.php' not found or unable to stat
+[Thu Mar 22 09:30:51.666353 2018] [:error] [pid 8120] [client 40.114.9.214:56562] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Mar 22 09:44:03.806758 2018] [:error] [pid 8120] [client 62.76.90.6:19577] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Thu Mar 22 18:14:57.787242 2018] [:error] [pid 8321] [client 118.123.4.211:56246] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Mar 23 03:46:14.700044 2018] [:error] [pid 8122] [client 89.46.106.170:24488] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Mar 23 12:43:51.873200 2018] [:error] [pid 22237] [client 51.15.157.202:64944] script '/var/www/html/adamdemetri.com/web/indo.php' not found or unable to stat
+[Fri Mar 23 12:43:51.922435 2018] [:error] [pid 22243] [client 51.15.157.202:64947] script '/var/www/html/adamdemetri.com/web/installmod.php' not found or unable to stat
+[Fri Mar 23 12:43:51.988620 2018] [:error] [pid 22235] [client 51.15.157.202:64954] script '/var/www/html/adamdemetri.com/web/popup-pomo.php' not found or unable to stat
+[Fri Mar 23 12:43:52.023231 2018] [:error] [pid 22235] [client 51.15.157.202:64954] script '/var/www/html/adamdemetri.com/web/shell.php' not found or unable to stat
+[Fri Mar 23 12:43:52.066700 2018] [:error] [pid 22126] [client 51.15.157.202:64956] script '/var/www/html/adamdemetri.com/web/upgrade.php' not found or unable to stat
+[Fri Mar 23 12:43:52.107380 2018] [:error] [pid 22244] [client 51.15.157.202:64958] script '/var/www/html/adamdemetri.com/web/v3.php' not found or unable to stat
+[Fri Mar 23 12:43:52.152673 2018] [:error] [pid 22239] [client 51.15.157.202:64962] script '/var/www/html/adamdemetri.com/web/wp-apps.php' not found or unable to stat
+[Fri Mar 23 12:43:52.194347 2018] [:error] [pid 22236] [client 51.15.157.202:64966] script '/var/www/html/adamdemetri.com/web/x.php' not found or unable to stat
+[Fri Mar 23 13:12:04.703582 2018] [:error] [pid 22235] [client 89.252.186.71:45564] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Mar 23 22:00:06.101065 2018] [:error] [pid 22243] [client 50.87.249.174:45383] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 24 06:44:24.005292 2018] [:error] [pid 22276] [client 50.87.249.174:20091] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 24 15:34:10.608587 2018] [:error] [pid 12529] [client 89.46.104.170:23924] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 24 18:21:11.171717 2018] [:error] [pid 13492] [client 192.42.116.16:46745] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sat Mar 24 18:21:11.887436 2018] [:error] [pid 9516] [client 192.42.116.16:47107] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Sun Mar 25 00:28:17.925661 2018] [:error] [pid 26539] [client 195.74.38.174:47124] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Mar 26 05:23:05.167040 2018] [:error] [pid 27623] [client 196.47.64.42:45252] script '/var/www/html/adamdemetri.com/web/wp-backup.php' not found or unable to stat, referer: adamdemetri.com
+[Mon Mar 26 05:24:01.287571 2018] [:error] [pid 27624] [client 196.47.64.42:51990] script '/var/www/html/adamdemetri.com/web/wp-organizer.php' not found or unable to stat, referer: adamdemetri.com
+[Tue Mar 27 06:20:42.396031 2018] [:error] [pid 27050] [client 37.187.132.5:35595] script '/var/www/html/adamdemetri.com/web/bray.php' not found or unable to stat, referer: adamdemetri.com
+[Tue Mar 27 20:19:30.348531 2018] [:error] [pid 22710] [client 37.187.132.5:54958] script '/var/www/html/adamdemetri.com/web/wp-configg.php' not found or unable to stat, referer: adamdemetri.com
+[Wed Mar 28 21:36:59.263006 2018] [:error] [pid 12030] [client 35.198.233.99:56040] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Mar 29 05:51:40.920548 2018] [:error] [pid 27735] [client 85.95.237.74:34582] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Mar 29 14:40:35.843219 2018] [:error] [pid 3041] [client 198.71.62.52:49120] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Mar 29 23:24:54.973298 2018] [:error] [pid 825] [client 66.147.244.223:26533] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Mar 30 07:58:43.213159 2018] [:error] [pid 22526] [client 72.52.251.3:36472] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Mar 30 16:48:56.334693 2018] [:error] [pid 14919] [client 35.198.233.99:55008] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 31 01:31:50.041185 2018] [:error] [pid 17785] [client 103.58.150.67:36744] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 31 10:34:07.620729 2018] [:error] [pid 26746] [client 66.85.78.130:32990] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Mar 31 18:08:14.646251 2018] [:error] [pid 10345] [client 42.191.143.41:57510] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sat Mar 31 19:09:35.414253 2018] [:error] [pid 26758] [client 91.134.248.235:47606] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Apr 02 22:52:46.539366 2018] [:error] [pid 12375] [client 37.187.132.5:50332] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: adamdemetri.com
+[Tue Apr 03 02:57:25.274398 2018] [:error] [pid 31580] [client 181.49.69.145:55032] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Wed Apr 04 01:05:32.230530 2018] [:error] [pid 32206] [client 37.187.132.5:44061] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: adamdemetri.com
+[Wed Apr 04 07:16:15.423995 2018] [:error] [pid 25896] [client 112.134.124.235:2517] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Wed Apr 04 15:26:47.001049 2018] [:error] [pid 8803] [client 91.200.12.95:7479] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Wed Apr 04 15:26:47.074923 2018] [:error] [pid 8803] [client 91.200.12.95:7479] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Wed Apr 04 18:42:57.886227 2018] [:error] [pid 31794] [client 37.187.88.203:45850] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Wed Apr 04 18:42:57.959168 2018] [:error] [pid 1417] [client 37.187.88.203:45864] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Apr 05 01:55:27.040457 2018] [:error] [pid 1726] [client 179.234.158.121:52499] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Thu Apr 05 03:16:40.678782 2018] [:error] [pid 30539] [client 178.63.46.86:43396] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Apr 05 11:53:11.143965 2018] [:error] [pid 2088] [client 43.250.249.1:47812] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Apr 05 20:46:31.998911 2018] [:error] [pid 23608] [client 192.145.239.22:44303] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 06 05:31:21.810799 2018] [:error] [pid 8015] [client 198.15.81.218:45652] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 06 14:28:58.278327 2018] [:error] [pid 21688] [client 45.32.240.36:50052] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Apr 07 09:00:30.846895 2018] [:error] [pid 16999] [client 62.210.129.246:9104] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sat Apr 07 09:00:32.155337 2018] [:error] [pid 16995] [client 62.210.129.246:9572] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Sat Apr 07 10:53:51.146333 2018] [:error] [pid 16997] [client 212.83.178.172:19662] script '/var/www/html/adamdemetri.com/web/ckupload.php' not found or unable to stat
+[Sat Apr 07 22:09:52.931176 2018] [:error] [pid 16998] [client 50.28.66.234:47166] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Apr 08 15:49:49.056294 2018] [:error] [pid 24611] [client 212.227.18.56:53433] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Apr 08 17:43:05.486720 2018] [:error] [pid 24612] [client 82.165.140.254:50476] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Apr 08 17:43:05.552013 2018] [:error] [pid 24616] [client 82.165.140.254:50484] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Apr 09 01:54:48.858878 2018] [:error] [pid 3431] [client 82.98.151.216:47666] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Apr 09 11:10:21.651860 2018] [:error] [pid 2681] [client 67.225.176.147:38996] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Apr 09 21:08:01.223759 2018] [:error] [pid 2436] [client 192.145.239.206:45160] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue Apr 10 07:04:15.807437 2018] [:error] [pid 18685] [client 103.67.235.64:37469] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Wed Apr 11 03:53:27.348882 2018] [:error] [pid 9444] [client 176.31.107.99:52605] script '/var/www/html/adamdemetri.com/web/pic.php' not found or unable to stat, referer: adamdemetri.com
+[Thu Apr 12 05:00:38.298472 2018] [:error] [pid 14249] [client 178.137.88.27:53900] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Apr 12 20:29:27.482540 2018] [:error] [pid 9404] [client 216.172.179.178:44078] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 13 00:21:25.665079 2018] [:error] [pid 3194] [client 204.10.105.9:50867] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: adamdemetri.com
+[Fri Apr 13 05:05:32.617680 2018] [:error] [pid 10025] [client 145.239.67.227:50174] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 13 13:34:41.501983 2018] [:error] [pid 21445] [client 158.69.54.174:47310] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 13 22:07:23.115252 2018] [:error] [pid 5721] [client 23.91.70.105:60789] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Apr 14 06:42:30.828588 2018] [:error] [pid 22231] [client 212.227.29.130:32875] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Apr 16 09:57:25.460366 2018] [:error] [pid 8914] [client 212.83.187.106:49911] script '/var/www/html/adamdemetri.com/web/consystem.php' not found or unable to stat
+[Mon Apr 16 09:57:25.517957 2018] [:error] [pid 8916] [client 212.83.187.106:49916] script '/var/www/html/adamdemetri.com/web/conf.ini.php' not found or unable to stat
+[Mon Apr 16 12:11:01.268227 2018] [:error] [pid 27849] [client 54.202.120.237:51062] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: https://google.com
+[Tue Apr 17 07:09:33.515966 2018] [:error] [pid 16993] [client 62.4.15.41:15677] script '/var/www/html/adamdemetri.com/web/logo_img.php' not found or unable to stat
+[Tue Apr 17 13:57:42.083933 2018] [:error] [pid 30193] [client 166.62.45.148:55848] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu Apr 19 06:48:58.290642 2018] [:error] [pid 2221] [client 18.236.69.33:57175] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Thu Apr 19 21:44:34.612834 2018] [:error] [pid 6992] [client 31.22.4.76:34348] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 20 06:10:22.929804 2018] [:error] [pid 22993] [client 50.28.66.234:52716] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 20 14:29:51.236398 2018] [:error] [pid 2807] [client 128.65.195.33:51402] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 20 23:08:25.157997 2018] [:error] [pid 17912] [client 185.94.97.242:42026] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 20 23:43:42.067175 2018] [:error] [pid 1397] [client 85.185.45.174:58294] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Apr 20 23:43:42.502670 2018] [:error] [pid 1379] [client 85.185.45.174:58454] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Apr 21 07:34:17.054470 2018] [:error] [pid 27418] [client 128.65.195.38:56658] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Apr 21 11:20:43.290058 2018] [:error] [pid 27417] [client 193.70.34.209:39079] script '/var/www/html/adamdemetri.com/web/update.php' not found or unable to stat
+[Sat Apr 21 16:10:19.183799 2018] [:error] [pid 19826] [client 162.144.23.210:26233] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Apr 28 09:20:05.154816 2018] [:error] [pid 23163] [client 146.185.223.240:61880] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue May 01 16:34:29.712171 2018] [:error] [pid 10803] [client 89.34.72.139:44727] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu May 03 00:07:16.641048 2018] [:error] [pid 7909] [client 185.76.9.69:6753] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Sun May 06 20:50:06.190457 2018] [:error] [pid 31024] [client 5.9.7.197:63223] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Thu May 10 17:04:22.724869 2018] [:error] [pid 31515] [client 185.234.217.200:53497] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Thu May 10 17:04:22.882673 2018] [:error] [pid 31515] [client 185.234.217.200:53497] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri May 11 02:21:11.468774 2018] [:error] [pid 27774] [client 188.138.105.63:17669] script '/var/www/html/adamdemetri.com/web/license.php' not found or unable to stat
+[Sat May 12 06:04:33.469507 2018] [:error] [pid 5103] [client 217.160.63.32:37474] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat May 12 14:29:54.877609 2018] [:error] [pid 22250] [client 89.252.186.201:43841] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat May 12 23:02:45.914766 2018] [:error] [pid 31278] [client 46.28.106.23:60496] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun May 13 06:26:03.620118 2018] [:error] [pid 15154] [client 212.83.179.153:60157] script '/var/www/html/adamdemetri.com/web/conf.ini.php' not found or unable to stat
+[Mon May 14 11:21:23.695276 2018] [:error] [pid 19635] [client 212.83.179.153:62898] script '/var/www/html/adamdemetri.com/web/controller.php' not found or unable to stat
+[Tue May 15 10:10:43.503152 2018] [:error] [pid 6740] [client 185.234.217.80:62849] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue May 15 10:10:43.661975 2018] [:error] [pid 6740] [client 185.234.217.80:62849] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Wed May 16 12:49:22.775475 2018] [:error] [pid 23871] [client 216.169.108.208:9862] script '/var/www/html/adamdemetri.com/web/searchreplacedb2.php' not found or unable to stat
+[Fri May 18 16:42:01.033928 2018] [:error] [pid 8158] [client 185.234.217.79:61555] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri May 18 16:42:01.075127 2018] [:error] [pid 8158] [client 185.234.217.79:61555] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Mon May 21 09:33:20.073423 2018] [:error] [pid 17719] [client 185.220.101.3:38110] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Mon May 21 09:33:21.930193 2018] [:error] [pid 32724] [client 185.220.101.3:33446] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Wed May 23 11:59:14.953540 2018] [:error] [pid 16230] [client 128.199.194.131:53498] script '/var/www/html/adamdemetri.com/web/wp-uti.php' not found or unable to stat
+[Thu May 24 10:05:03.352953 2018] [:error] [pid 19524] [client 37.187.132.5:60099] script '/var/www/html/adamdemetri.com/web/seomarket.php' not found or unable to stat, referer: adamdemetri.com
+[Sat May 26 06:13:57.308078 2018] [:error] [pid 15489] [client 185.234.217.200:50986] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat May 26 06:13:57.375038 2018] [:error] [pid 15489] [client 185.234.217.200:50986] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat May 26 16:51:21.373311 2018] [:error] [pid 29412] [client 113.173.175.34:35034] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php?action=register
+[Mon May 28 13:32:49.850461 2018] [:error] [pid 24856] [client 5.135.138.188:56672] script '/var/www/html/adamdemetri.com/web/pic.php' not found or unable to stat, referer: adamdemetri.com
+[Mon May 28 15:31:02.114319 2018] [:error] [pid 2455] [client 192.99.35.121:65314] script '/var/www/html/adamdemetri.com/web/license.php' not found or unable to stat
+[Mon May 28 15:31:02.324979 2018] [:error] [pid 3310] [client 192.99.35.121:51223] script '/var/www/html/adamdemetri.com/web/license.php' not found or unable to stat
+[Tue May 29 14:21:06.517410 2018] [:error] [pid 27730] [client 37.187.132.5:54805] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: http://www.google.com
+[Sat Jun 02 21:24:19.393694 2018] [:error] [pid 31242] [client 5.188.62.117:49218] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Jun 03 00:02:00.215152 2018] [:error] [pid 17953] [client 128.199.194.131:15272] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Jun 03 00:02:01.039557 2018] [:error] [pid 17955] [client 128.199.194.131:15381] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Jun 03 20:34:34.136288 2018] [:error] [pid 24216] [client 146.185.223.113:61092] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Mon Jun 04 00:32:10.102010 2018] [:error] [pid 12387] [client 185.234.217.225:65322] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Mon Jun 04 00:32:10.247668 2018] [:error] [pid 12387] [client 185.234.217.225:65322] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Jun 05 02:04:53.703950 2018] [:error] [pid 12178] [client 133.242.22.177:59741] script '/var/www/html/adamdemetri.com/web/wp-checking.php' not found or unable to stat, referer: adamdemetri.com
+[Tue Jun 05 13:16:54.461856 2018] [:error] [pid 13097] [client 5.188.62.117:61425] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Jun 08 18:07:00.444436 2018] [:error] [pid 28513] [client 77.111.175.75:47856] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: http://adamdemetri.com/
+[Fri Jun 08 18:07:00.563851 2018] [:error] [pid 28513] [client 77.111.175.75:47856] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: http://adamdemetri.com/index.php?cperpage=1
+[Sat Jun 09 03:08:27.479192 2018] [:error] [pid 5090] [client 185.234.217.73:53788] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Jun 09 03:08:27.521770 2018] [:error] [pid 5090] [client 185.234.217.73:53788] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 10 20:56:57.201701 2018] [:error] [pid 16583] [client 185.234.217.73:58594] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 10 20:56:57.237858 2018] [:error] [pid 16583] [client 185.234.217.73:58594] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Jun 12 11:15:14.108998 2018] [:error] [pid 32188] [client 192.99.35.121:57832] script '/var/www/html/adamdemetri.com/web/up.php' not found or unable to stat
+[Tue Jun 12 11:15:14.316841 2018] [:error] [pid 32186] [client 192.99.35.121:58623] script '/var/www/html/adamdemetri.com/web/up.php' not found or unable to stat
+[Wed Jun 13 19:45:11.947260 2018] [:error] [pid 10988] [client 185.183.107.92:59780] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Fri Jun 15 18:42:24.493495 2018] [:error] [pid 389] [client 193.106.30.99:45370] script '/var/www/html/adamdemetri.com/web/up.php' not found or unable to stat
+[Sat Jun 16 09:30:41.624648 2018] [:error] [pid 13645] [client 193.106.30.99:54380] script '/var/www/html/adamdemetri.com/web/temp.php' not found or unable to stat
+[Sat Jun 16 13:53:38.928386 2018] [:error] [pid 3782] [client 192.42.116.13:36528] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sat Jun 16 13:53:40.325354 2018] [:error] [pid 3781] [client 192.42.116.13:41814] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Sun Jun 17 14:05:48.625808 2018] [:error] [pid 2467] [client 193.106.30.99:42896] script '/var/www/html/adamdemetri.com/web/configurationbak.php' not found or unable to stat
+[Sun Jun 17 14:10:51.598051 2018] [:error] [pid 2471] [client 193.169.252.83:58490] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 17 14:10:51.630022 2018] [:error] [pid 2471] [client 193.169.252.83:58490] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 17 20:45:57.748819 2018] [:error] [pid 6474] [client 185.234.217.72:61169] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 17 20:45:57.784285 2018] [:error] [pid 6474] [client 185.234.217.72:61169] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Mon Jun 18 08:47:22.561150 2018] [:error] [pid 5707] [client 193.106.30.99:41830] script '/var/www/html/adamdemetri.com/web/cache.php' not found or unable to stat
+[Mon Jun 18 22:43:09.242803 2018] [:error] [pid 19065] [client 193.106.30.99:59542] script '/var/www/html/adamdemetri.com/web/wp-logs.php' not found or unable to stat
+[Tue Jun 19 13:58:46.055131 2018] [:error] [pid 3438] [client 193.106.30.99:56764] script '/var/www/html/adamdemetri.com/web/wp-rdf.php' not found or unable to stat
+[Wed Jun 20 05:32:03.627405 2018] [:error] [pid 20727] [client 193.106.30.99:52206] script '/var/www/html/adamdemetri.com/web/wp-feed.php' not found or unable to stat
+[Wed Jun 20 08:10:00.500241 2018] [:error] [pid 4761] [client 51.38.239.105:54373] script '/var/www/html/adamdemetri.com/web/roots.php' not found or unable to stat, referer: http://adamdemetri.com/roots.php
+[Wed Jun 20 08:10:05.222608 2018] [:error] [pid 4765] [client 51.38.239.105:54557] script '/var/www/html/adamdemetri.com/web/content-post.php' not found or unable to stat, referer: http://adamdemetri.com/content-post.php
+[Fri Jun 22 12:09:18.323276 2018] [:error] [pid 28930] [client 85.248.227.163:21791] script '/var/www/html/adamdemetri.com/web/cinfo.php' not found or unable to stat
+[Fri Jun 22 20:52:35.736305 2018] [:error] [pid 7122] [client 5.9.7.197:59644] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Jun 23 16:31:24.369772 2018] [:error] [pid 19830] [client 193.106.30.99:45676] script '/var/www/html/adamdemetri.com/web/cod.php' not found or unable to stat
+[Sat Jun 23 17:04:40.270670 2018] [:error] [pid 23715] [client 185.234.218.40:52516] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Jun 23 17:04:40.327940 2018] [:error] [pid 23715] [client 185.234.218.40:52516] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jun 24 06:55:22.742066 2018] [:error] [pid 32068] [client 193.106.30.99:58246] script '/var/www/html/adamdemetri.com/web/11.php' not found or unable to stat
+[Sun Jun 24 20:41:38.110629 2018] [:error] [pid 7908] [client 193.106.30.99:34722] script '/var/www/html/adamdemetri.com/web/wp-sbb.php' not found or unable to stat
+[Tue Jun 26 02:18:28.086753 2018] [:error] [pid 2795] [client 193.106.30.99:37718] script '/var/www/html/adamdemetri.com/web/LICENSE.php' not found or unable to stat
+[Tue Jun 26 15:12:43.995171 2018] [:error] [pid 17612] [client 54.37.149.75:50183] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue Jun 26 16:22:40.150963 2018] [:error] [pid 25697] [client 193.106.30.99:47308] script '/var/www/html/adamdemetri.com/web/wp-version.php' not found or unable to stat
+[Wed Jun 27 05:13:39.061325 2018] [:error] [pid 17675] [client 212.129.7.244:53322] script '/var/www/html/adamdemetri.com/web/seomarket.php' not found or unable to stat
+[Wed Jun 27 06:19:11.595386 2018] [:error] [pid 17689] [client 193.106.30.99:36464] script '/var/www/html/adamdemetri.com/web/ytt.php' not found or unable to stat
+[Thu Jun 28 10:43:36.182716 2018] [:error] [pid 29824] [client 193.106.30.99:48620] script '/var/www/html/adamdemetri.com/web/smalls.php' not found or unable to stat
+[Thu Jun 28 11:47:48.124725 2018] [:error] [pid 3287] [client 185.234.218.40:59359] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Thu Jun 28 11:47:48.159269 2018] [:error] [pid 3287] [client 185.234.218.40:59359] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Jun 30 11:02:30.860423 2018] [:error] [pid 998] [client 193.106.30.99:41332] script '/var/www/html/adamdemetri.com/web/get.php' not found or unable to stat
+[Sun Jul 01 00:45:18.961412 2018] [:error] [pid 26454] [client 193.106.30.99:45596] script '/var/www/html/adamdemetri.com/web/11.php' not found or unable to stat
+[Sun Jul 01 15:33:33.637004 2018] [:error] [pid 10669] [client 193.106.30.99:57834] script '/var/www/html/adamdemetri.com/web/cache.php' not found or unable to stat
+[Mon Jul 02 09:01:12.813249 2018] [:error] [pid 24285] [client 87.106.133.138:46441] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue Jul 03 09:34:47.184243 2018] [:error] [pid 30869] [client 193.106.30.99:55668] script '/var/www/html/adamdemetri.com/web/config.php' not found or unable to stat
+[Tue Jul 03 23:52:28.794942 2018] [:error] [pid 8657] [client 193.106.30.99:51584] script '/var/www/html/adamdemetri.com/web/consystem.php' not found or unable to stat
+[Wed Jul 04 14:52:57.463303 2018] [:error] [pid 28827] [client 193.106.30.99:33982] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Thu Jul 05 08:44:38.573247 2018] [:error] [pid 1157] [client 193.106.30.99:59310] script '/var/www/html/adamdemetri.com/web/wp-register.php' not found or unable to stat
+[Thu Jul 05 14:50:17.219622 2018] [:error] [pid 1886] [client 185.234.218.44:59954] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Thu Jul 05 14:50:17.249777 2018] [:error] [pid 1886] [client 185.234.218.44:59954] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Jul 10 03:00:28.100726 2018] [:error] [pid 7586] [client 193.169.252.76:50504] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Jul 10 03:00:28.324000 2018] [:error] [pid 7586] [client 193.169.252.76:50504] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Wed Jul 11 17:29:48.905841 2018] [:error] [pid 27680] [client 193.106.30.99:54424] script '/var/www/html/adamdemetri.com/web/yt.php' not found or unable to stat
+[Thu Jul 12 14:56:49.737056 2018] [:error] [pid 19860] [client 92.63.193.124:34272] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Fri Jul 13 14:48:20.215414 2018] [:error] [pid 25937] [client 185.234.217.132:58071] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Fri Jul 13 14:48:20.244217 2018] [:error] [pid 25937] [client 185.234.217.132:58071] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Fri Jul 13 21:03:40.133017 2018] [:error] [pid 21465] [client 193.169.252.185:57489] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri Jul 13 21:03:40.164784 2018] [:error] [pid 21465] [client 193.169.252.185:57489] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Jul 14 10:02:37.902806 2018] [:error] [pid 6289] [client 212.129.6.199:54679] script '/var/www/html/adamdemetri.com/web/cns.php' not found or unable to stat
+[Sat Jul 14 10:02:37.933923 2018] [:error] [pid 5829] [client 212.129.5.195:64294] script '/var/www/html/adamdemetri.com/web/controller.php' not found or unable to stat
+[Sat Jul 14 21:11:09.681386 2018] [:error] [pid 32244] [client 212.129.6.199:60174] script '/var/www/html/adamdemetri.com/web/load_pdf.php' not found or unable to stat
+[Tue Jul 17 20:23:14.942333 2018] [:error] [pid 16921] [client 185.234.217.28:54203] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Jul 17 20:23:14.977751 2018] [:error] [pid 16921] [client 185.234.217.28:54203] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Wed Jul 18 19:10:05.784520 2018] [:error] [pid 9314] [client 185.234.217.47:51908] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Wed Jul 18 19:10:05.814697 2018] [:error] [pid 9314] [client 185.234.217.47:51908] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Wed Jul 18 21:03:43.844353 2018] [:error] [pid 18348] [client 193.201.224.210:60512] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: http://adamdemetri.com/index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload
+[Sun Jul 22 00:48:40.116169 2018] [:error] [pid 14835] [client 178.137.93.108:59229] script '/var/www/html/adamdemetri.com/web/dbs.php' not found or unable to stat
+[Sun Jul 22 23:56:27.390061 2018] [:error] [pid 32707] [client 193.169.252.186:62899] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Jul 22 23:56:27.422471 2018] [:error] [pid 32707] [client 193.169.252.186:62899] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Mon Jul 23 00:39:26.278095 2018] [:error] [pid 7703] [client 88.135.48.243:20419] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat
+[Mon Jul 23 21:28:02.921456 2018] [:error] [pid 19171] [client 51.15.146.39:63727] script '/var/www/html/adamdemetri.com/web/dbs.php' not found or unable to stat
+[Tue Jul 24 18:42:51.020510 2018] [:error] [pid 1708] [client 62.210.252.196:39296] script '/var/www/html/adamdemetri.com/web/index.php' not found or unable to stat, referer: adamdemetri.com
+[Wed Jul 25 20:05:38.522654 2018] [:error] [pid 5687] [client 178.137.88.27:58552] script '/var/www/html/adamdemetri.com/web/dbs.php' not found or unable to stat
+[Sun Jul 29 09:17:04.877015 2018] [:error] [pid 19833] [client 103.52.59.36:37038] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sun Jul 29 21:42:20.400774 2018] [:error] [pid 23548] [client 173.236.44.34:34620] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue Jul 31 20:45:13.088220 2018] [:error] [pid 13933] [client 178.137.88.27:52506] script '/var/www/html/adamdemetri.com/web/dbs.php' not found or unable to stat
+[Wed Aug 01 19:59:00.399097 2018] [:error] [pid 18913] [client 202.29.213.41:36438] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Thu Aug 02 10:54:23.722381 2018] [:error] [pid 9052] [client 37.115.185.236:65128] script '/var/www/html/adamdemetri.com/web/dbs.php' not found or unable to stat
+[Sat Aug 04 02:20:31.329529 2018] [:error] [pid 24156] [client 199.79.62.21:41842] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat
+[Sun Aug 05 10:53:41.629552 2018] [:error] [pid 1310] [client 185.234.217.67:52502] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sun Aug 05 10:53:41.774138 2018] [:error] [pid 1310] [client 185.234.217.67:52502] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Tue Aug 07 04:59:59.953647 2018] [:error] [pid 18649] [client 178.137.88.27:59885] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Tue Aug 07 09:52:03.549374 2018] [:error] [pid 21755] [client 5.188.136.151:59301] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://www.google.com.hk
+[Tue Aug 07 09:52:25.451218 2018] [:error] [pid 21780] [client 5.188.136.151:60357] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat, referer: http://www.google.com.hk
+[Wed Aug 08 03:52:45.349050 2018] [:error] [pid 14306] [client 212.129.6.199:63454] script '/var/www/html/adamdemetri.com/web/adm.php' not found or unable to stat
+[Wed Aug 08 08:03:23.965915 2018] [:error] [pid 10178] [client 54.89.60.125:52665] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: https://google.com
+[Thu Aug 09 07:12:52.620837 2018] [:error] [pid 32109] [client 128.31.0.13:41106] script '/var/www/html/adamdemetri.com/web/CI.php' not found or unable to stat
+[Thu Aug 09 07:13:01.208630 2018] [:error] [pid 28233] [client 128.31.0.13:43066] script '/var/www/html/adamdemetri.com/web/impo.php' not found or unable to stat
+[Thu Aug 09 07:13:11.238070 2018] [:error] [pid 29514] [client 128.31.0.13:44458] script '/var/www/html/adamdemetri.com/web/meta.php' not found or unable to stat
+[Thu Aug 09 07:13:27.572011 2018] [:error] [pid 29514] [client 54.39.119.73:45870] script '/var/www/html/adamdemetri.com/web/b.php' not found or unable to stat
+[Thu Aug 09 07:13:29.106793 2018] [:error] [pid 32122] [client 54.39.119.73:46416] script '/var/www/html/adamdemetri.com/web/andela.php' not found or unable to stat
+[Thu Aug 09 07:13:29.855807 2018] [:error] [pid 32109] [client 54.39.119.73:46702] script '/var/www/html/adamdemetri.com/web/log.php' not found or unable to stat
+[Thu Aug 09 07:13:31.436523 2018] [:error] [pid 32110] [client 54.39.119.73:47282] script '/var/www/html/adamdemetri.com/web/xxx.php' not found or unable to stat
+[Thu Aug 09 07:13:32.219400 2018] [:error] [pid 28233] [client 54.39.119.73:47644] script '/var/www/html/adamdemetri.com/web/jahat.php' not found or unable to stat
+[Thu Aug 09 07:13:33.256981 2018] [:error] [pid 32120] [client 54.39.119.73:48568] script '/var/www/html/adamdemetri.com/web/tmp.php' not found or unable to stat
+[Fri Aug 10 19:08:01.979642 2018] [:error] [pid 4071] [client 185.234.217.102:64254] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri Aug 10 19:08:02.056242 2018] [:error] [pid 4071] [client 185.234.217.102:64254] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri Aug 10 19:11:43.727298 2018] [:error] [pid 3990] [client 172.245.244.28:50918] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Aug 11 00:16:30.335048 2018] [:error] [pid 25830] [client 195.22.127.231:64866] script '/var/www/html/adamdemetri.com/web/lfm.php' not found or unable to stat
+[Mon Aug 13 22:41:18.718312 2018] [:error] [pid 17569] [client 46.118.118.32:46467] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat, referer: http://adamdemetri.com/xmlrpc.php
+[Wed Aug 15 10:59:07.695465 2018] [:error] [pid 14906] [client 188.165.192.220:6506] script '/var/www/html/adamdemetri.com/web/forum.php' not found or unable to stat
+[Thu Aug 16 17:56:37.006126 2018] [:error] [pid 19410] [client 104.168.7.39:49474] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sun Aug 19 22:39:53.550075 2018] [:error] [pid 5282] [client 62.210.129.246:41244] script '/var/www/html/adamdemetri.com/web/web.php' not found or unable to stat
+[Sun Aug 19 22:39:54.294972 2018] [:error] [pid 5269] [client 62.210.129.246:41630] script '/var/www/html/adamdemetri.com/web/oi.php' not found or unable to stat
+[Sun Aug 19 22:39:54.613914 2018] [:error] [pid 5671] [client 62.210.129.246:41806] script '/var/www/html/adamdemetri.com/web/settings_auto.php' not found or unable to stat
+[Sun Aug 19 22:39:54.999695 2018] [:error] [pid 5766] [client 62.210.129.246:41964] script '/var/www/html/adamdemetri.com/web/Worm.php' not found or unable to stat
+[Sun Aug 19 22:39:55.345846 2018] [:error] [pid 5768] [client 62.210.129.246:42246] script '/var/www/html/adamdemetri.com/web/seomarket.php' not found or unable to stat
+[Sun Aug 19 22:39:55.984843 2018] [:error] [pid 5674] [client 62.210.129.246:42574] script '/var/www/html/adamdemetri.com/web/bv.php' not found or unable to stat
+[Sun Aug 19 22:39:56.358964 2018] [:error] [pid 5267] [client 62.210.129.246:42816] script '/var/www/html/adamdemetri.com/web/akism.php' not found or unable to stat
+[Sun Aug 19 22:39:56.637738 2018] [:error] [pid 5773] [client 62.210.129.246:42960] script '/var/www/html/adamdemetri.com/web/123.php' not found or unable to stat
+[Sun Aug 19 22:39:57.205511 2018] [:error] [pid 5270] [client 62.210.129.246:43282] script '/var/www/html/adamdemetri.com/web/WIFL.php' not found or unable to stat
+[Sun Aug 19 22:40:03.110824 2018] [:error] [pid 5267] [client 62.210.129.246:46482] script '/var/www/html/adamdemetri.com/web/lrd.php' not found or unable to stat
+[Thu Aug 23 12:56:31.679015 2018] [:error] [pid 8390] [client 185.234.217.54:63234] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Thu Aug 23 12:56:31.712905 2018] [:error] [pid 8390] [client 185.234.217.54:63234] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Fri Aug 31 06:24:05.660346 2018] [:error] [pid 2146] [client 145.249.107.19:58104] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Sep 01 10:16:04.268471 2018] [:error] [pid 18208] [client 107.175.1.69:63445] script '/var/www/html/adamdemetri.com/web/xmlrpc.php' not found or unable to stat
+[Sat Sep 01 16:55:12.627724 2018] [:error] [pid 22020] [client 185.234.217.63:51684] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Sep 01 16:55:12.663007 2018] [:error] [pid 22020] [client 185.234.217.63:51684] script '/var/www/html/adamdemetri.com/web/wp-login.php' not found or unable to stat, referer: http://adamdemetri.com/wp-login.php
+[Sat Sep 01 17:23:39.673008 2018] [:error] [pid 26000] [client 185.140.245.3:49395] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /var/www/html/adamdemetri.com/web/index.php on line 15, referer: http://adamdemetri.com/
