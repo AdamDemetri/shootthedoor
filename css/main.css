@@ -19,6 +19,8 @@ main {
 section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  min-height: 500px;
 }
 
 article, aside {
@@ -298,7 +300,33 @@ nav>ul li {
  }
 
  img.members {
-     text-align: center;
+     display: block;
+     margin: auto;
+ }
+
+ .introTextAnimation {
+     opacity:0;
+     animation: textIntro 3s ease-in-out 1s 1 normal forwards;
+
+ }
+
+ @keyframes textIntro {
+     0% {
+         opacity:0;
+          -webkit-transform: translate3d(0, -50%, 0);
+          transform: translate3d(0, -50%, 0);
+          visibility: visible;
+    }
+
+     50% {
+         opacity: 1;
+         -webkit-transform: translate3d(0, 0, 0);
+         transform: translate3d(0, 0, 0);
+     }
+     100% {
+         opacity: 0;
+
+     }
  }
 
 }
