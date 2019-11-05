@@ -1,0 +1,59 @@
+const langData = {
+  'Domov': {
+    'en': 'Home'
+  },
+  'Svadobné video': {
+    'en': 'Wedding video'
+  },
+  'Tím': {
+    'en': 'Team'
+  },
+  'Kontakt': {
+    'en': 'Contact'
+  },
+  'Svadobný deň je výnimočná udalosť plná neopakovateľných okamihov, na ktoré budete spomínať celý život.': {
+    'en': 'A wedding day is an <span class="textDecRed">exceptional event</span> full of one-shot moments which you will remind for rest of your life.'
+  },
+  'Ak chcete mať všetky tieto momenty najkrajšieho spoločného dňa zachytené podľa svojich predstáv ste na správnej adrese. Náš talentovaný tím Vás rád spozná a vytvorí tak nádherné video plné spomienok presne na mieru .': {
+    'en': 'If you desire to have all these beautiful moments of your <span class="textDecRed">wedding day</span> captured in a way you will love, you just found the right ones. Our <span class="textDecRed">talented team</span> will like to know you personally and so create an outstanding video that <span class="textDecUnder">fits your ideas perfectly</span> .'
+  },
+  'Deň ktorý patrí len novomanželom, chceme zachytiť tak, aby výsledkom nebolo len video, ale zážitok. Dovoľte nám prežiť Váš jedinečný deň spolu s Vami a zachytiť tak tento nádherný zážitok.': {
+    'en': 'We aspire to capture the day, that belongs only to newlyweds in that way, that result will not be the only video, but a beautiful experience. Let us spend your special day with you, so we can capture this experience.'
+  },
+  'Nerobíme veci podľa šablóny.': {
+    'en': 'We do NOT create by templates.'
+  },
+  'Je to len na Vás.': {
+    'en': 'The choice is Yours'
+  },
+  'Vaše budúce svadobné video s Vami radi preberieme pri nezáväznom stretnutí pri káve..': {
+    'en': 'We will gladly discuss Your future wedding video with You on non-committal meeting with coffee..'
+  },
+  'Pozývame :)': {
+    'en': 'We invite :)'
+  },
+  'Meno*': {
+    'en': 'Name*'
+  },
+  'Váš email*': {
+    'en': 'Your email*'
+  },
+  'Dátum a miesto*': {
+    'en': 'Date and place*'
+  },
+  'Máte už svadobného fotografa?': {
+    'en': 'Do you have a wedding photographer'
+  },
+  'Vaša predstava svadobného videa': {
+    'en': 'Your wedding video ideas'
+  },
+  'Áno': {
+    'en': 'Yes'
+  },
+  'Nie': {
+    'en': 'No'
+  },
+  'Odoslať': {
+    'en': 'Send'
+  }
+}

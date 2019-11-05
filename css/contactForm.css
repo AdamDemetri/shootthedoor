@@ -1,0 +1,29 @@
+#contact {
+    /* background: #eee; */
+    /* padding: 15px; */
+}
+
+#contact label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contact input[type=text],
+#contact input[type=email],
+#contact textarea {
+    padding: 10px;
+}
+
+#contact input[type=submit] {
+    background: #b9d1f7;
+    border: 0;
+    margin-top: 10px;
+    padding: 10px;
+}

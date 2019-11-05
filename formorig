@@ -1,0 +1,26 @@
+<form action="submit.php" method="post">
+  <section>
+    <article>
+      <label for="name">Meno*</label>
+      <input type="text" name="Meno" placeholder="Vaše Meno" required autofocus />
+
+      <label for="surname">Priezvisko*</label>
+      <input type="text" name="Priezvisko" placeholder=" Vaše Priezvisko" required autofocus />
+
+      <label for="wedding">Dátum a miesto*</label>
+      <input type="text" name="Dátum a miesto svadby" placeholder="Kde a kedy sa bude Vaša svadba konať" required>
+
+      <label for="photograph">Máte už svadobného fotografa?</label>
+      <input class="radioBtn" type="radio" name="fotograf" value="áno">Áno
+      <input class="radioBtn" type="radio" name="fotograf" value="nie" checked>Nie
+
+    </article>
+
+    <article>
+      <label for="wedInfo">Vaša predstava svadobného videa</label>
+      <textarea type="text" name="Predstava" placeholder="Vaše návrhy" style="height:184px;"></textarea>
+      <div class="g-recaptcha" data-sitekey="6Lc9YYkUAAAAACIvoCWGwTcKPJTdpxyd1AsMWKLK"></div>
+    </article>
+  </section>
+
+  <input class="formBtn" type="submit" value="Odoslať">

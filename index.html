@@ -4,185 +4,215 @@
 <!-- NOTE:
 //navbar
 https://itnext.io/how-to-build-a-responsive-navbar-using-flexbox-and-javascript-eb0af24f19bf
+
+// contact From + recaptcha + php
+https://code-boxx.com/php-contact-form-recaptcha/#sec-register
  -->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="www.adamdemetri.com">
-    <title>SHOOT THE DOOR</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="author" content="www.adamdemetri.com">
+  <meta property="og:image" content="sources/img/stds.png" />
+  <title>SHOOT THE DOOR</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link href="css/flag-icon.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/contactForm.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="css/flag-icon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/contactForm.css">
 
-    <!-- Favicons -->
-    <!-- generated on: //realfavicongenerator.net -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+  <!-- Favicons -->
+  <!-- generated on: //realfavicongenerator.net -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
 
-<body>
-    <main>
-        <nav>
-            <span id="navbarToggle">
+<body id="top">
+  <main>
+    <nav id="navbar">
+      <span id="navbarToggle">
                 <i class="fas fa-bars"></i>
             </span>
-            <a href="#" class="logo"><img src="sources/podklady/ShootTheDoorInline.svg" alt="Shoot the door logo"
+      <a href="#top" class="logo"><img src="sources/podklady/ShootTheDoorInline.svg" alt="Shoot the door logo"
                     height="20"></a>
-            <ul id="menu">
-                <li>
-                    <a href="#">Domov</a>
-                </li>
-                <li>
-                    <a href="#">Svadobné video</a>
-                </li>
-                <li>
-                    <a href="#">Tím</a>
-                </li>
-                <li>
-                    <a href="#">Kontakt</a>
-                </li>
-                <li>
-                    <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn">SK</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a><span class="flag-icon flag-icon-sk"></span></a>
-                            <a><span class="flag-icon flag-icon-us"></span></a>
-                        </div>
-                </li>
-                <li class="hideForMobile">
-                    <a href="#"><img class="icons" src="sources/icons/fb.svg" /></a>
-                </li>
-                <li class="hideForMobile">
-                    <a href="#"><img class="icons" src="sources/icons/yt.svg" /></a>
-                </li>
-            </ul>
-        </nav>
+      <ul id="menu">
+        <li>
+          <a href="#top" class="js_translate">Domov</a>
+        </li>
+        <li>
+          <a href="#aboutUs" class="js_translate">Svadobné video</a>
+        </li>
+        <li>
+          <a href="#STDteam" class="js_translate">Tím</a>
+        </li>
+        <li>
+          <a href="#contact" class="js_translate">Kontakt</a>
+        </li>
+        <li>
+          <div class="dropdown" id="changeSelector">
+            <button onclick="myFunction()" class="dropbtn">SK</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a><span class="flag-icon flag-icon-sk"></span></a>
+              <a onclick="translateToEN()"><span class="flag-icon flag-icon-us"></span></a>
+            </div>
+        </li>
+        <li class="hideForMobile">
+          <a href="https://www.facebook.com/pages/category/Movie-Television-Studio/Shoot-The-Door-Studio-114432685624477/"><img class="icons" src="sources/icons/fb.svg" /></a>
+        </li>
+        <li class="hideForMobile">
+          <a href="https://www.youtube.com/channel/UCW3a_ZOT1CgDjS1B9JcsvJA"><img class="icons" src="sources/icons/yt.svg" /></a>
+        </li>
+      </ul>
+    </nav>
 
 
-        <!-- Landing page with video -->
-        <section>
-            <article class="video-container">
-                <video autoplay loop muted>
+    <!-- Landing page with video -->
+    <section>
+      <article id="changehtml" class="video-container">
+        <video autoplay loop muted controls="true">
                     <source src="sources/vid/STDbackgroundVideo.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <div class="overlay">
-                    <img class="introTextAnimation" src="sources/podklady/STDwed.svg" alt="Shoot the door weddings">
-                </div>
-            </article>
-        </section>
+        <div class="overlay">
+          <img id="hide"class="introTextAnimation" src="sources/podklady/STDwed.svg" alt="Shoot the door weddings">
+        </div>
+      </article>
+    </section>
 
-        <!-- Wedding video -->
-        <section id="aboutUs">
-            <aside></aside>
+    <!-- Wedding video -->
+    <section id="aboutUs">
+
+      <article>
+        <h2 class="js_translate">Svadobné video</h2>
+        <section>
+
+          <article>
+            <div id="text">
+              <p class="js_translate">Svadobný deň je <span class="textDecRed">výnimočná udalosť</span> plná neopakovateľných okamihov, na ktoré budete spomínať celý život.</p><br>
+              <p class="js_translate">Ak chcete mať všetky tieto momenty <span class="textDecRed">najkrajšieho spoločného dňa</span> zachytené podľa svojich predstáv ste na správnej adrese. Náš <span class="textDecRed">talentovaný tím</span> Vás rád spozná a vytvorí tak nádherné
+                video plné spomienok
+                <span class="textDecUnder">presne na mieru </span>.</p>
+              <p class="js_translate">Deň ktorý patrí len novomanželom, chceme zachytiť tak, aby výsledkom nebolo len video, ale zážitok. Dovoľte nám prežiť Váš jedinečný deň spolu s Vami a zachytiť tak tento nádherný zážitok.</p>
+              <p class="textDecCrossed js_translate">Nerobíme veci podľa šablóny.</p>
+              <p class="textDecBack js_translate">Je to len na Vás.</p>
+              <p class="js_translate">Vaše budúce svadobné video s Vami radi preberieme pri nezáväznom stretnutí pri káve..</p>
+              <p class="js_translate">Pozývame :)</p>
+            </div>
+          </article>
+
+          <article>
+            <section>
+              <article>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/8yGQbPNfTCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/rvGVvEh-tN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/-p4XNkvKLS0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              </article>
+              <article>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/suj-zbgh-44" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/tNUavveHW14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="videoDiv"><iframe src="https://www.youtube.com/embed/lM_xobTOLIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              </article>
+            </section>
+          </article>
+
+        </section>
+      </article>
+    </section>
+
+    <!-- Team -->
+    <section id="STDteam">
+      <article>
+        <h2 class="js_translate">Team</h2>
+        <section class="members">
+          <article>
+            <img id="david" src="sources/img/davo.png" alt="">
+            <div>Dávid</div>
+          </article>
+          <article>
+            <img id="erik" src="sources/img/kuty.png" alt="">
+            <div>Erik</div>
+          </article>
+          <article>
+            <img id="peter" src="sources/img/lado.png" alt="">
+            <div>Peter</div>
+          </article>
+        </section>
+      </article>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact">
+      <article>
+        <h2 class="js_translate">Kontakt</h2>
+        <form action="submit.php" method="post">
+          <section>
             <article>
-                <h2>Svadobné video</h2>
-                <section>
+              <label class="js_translate">Meno*</label>
+              <input type="text" name="firstName" placeholder="Vaše Meno" required autofocus />
 
-                    <article>
-                        <p>Svadobný deň je plný neopakovateľných okamihov. Myslíme na emócie a s radosťou ich prežijeme
-                            spoločné s Vami. 
+              <label class="js_translate">Váš email*</label>
+              <input type="text" name="email" placeholder=" Váš email" required autofocus />
 
-                            Každý človek je vo svojej podstate výnimočný, a to isté platí aj o Vašej svadbe. Momenty
-                            najkrajšieho spoločného dňa
-                            je možné zachytiť rôznymi spôsobmi, a tak Vás veľmi radi spoznáme a vytvoríme video presne
-                            na mieru. 
+              <label class="js_translate">Dátum a miesto*</label>
+              <input type="text" name="dateAndPlace" placeholder="Kde a kedy sa bude Vaša svadba konať" required>
 
-                            Deň ktorý patrí len novomanželom, chceme zachytiť tak, aby výsledkom nebolo len video, ale
-                            zážitok.
-                        </p>
-                    </article>
-
-                    <article>
-                        <section>
-                            <article>
-                                <iframe src="https://www.youtube.com/embed/8yGQbPNfTCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                                <iframe src="https://www.youtube.com/embed/rvGVvEh-tN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </article>
-                            <article>
-                                <iframe src="https://www.youtube.com/embed/eVQFfc6EO0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                                <iframe src="https://www.youtube.com/embed/tNUavveHW14" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                    allowfullscreen></iframe>
-                            </article>
-                        </section>
-                    </article>
-
-                </section>
-            </article>
-            <aside></aside>
-        </section>
-
-        <!-- Team -->
-        <section id="STDteam">
-            <aside></aside>
-            <article>
-                <section>
-                    <article style="background: black">
-                        <img class="members" src="sources/podklady/davo.svg" alt="">
-                    </article>
-                    <article style="background: black">
-                        <img class="members" src="sources/podklady/davo.svg" alt="">
-                    </article>
-                    <article style="background: black">
-                        <img class="members" src="sources/podklady/davo.svg" alt="">
-                    </article>
-                </section>
-            </article>
-            <aside></aside>
-        </section>
-
-        <!-- Contact form -->
-        <section id="contact">
-            <aside></aside>
-                <article>
-                    <h2>Kontakt</h2>
-                    <form action="/submit.php" method="POST" target="_self">
-                        <label for="name">Meno:</label>
-                        <input type="text" name="Meno" placeholder="Vaše Meno" required autofocus />
-
-                        <label for="surname">Priezvisko:</label>
-                        <input type="text" name="Priezvisko" placeholder=" Vaše Priezvisko" required autofocus />
-
-                        <label for="wedding">Dátum a miesto svadby:</label>
-                        <input type="text" name="Dátum a miesto svadby" placeholder="Kde a kedy sa bude Vaša svadba konať"
-                            required>
-
-                        <label for="photograph">Máte už svadobného fotografa?</label>
-                        <input type="radio" name="fotograf" value="áno">áno
-                        <input type="radio" name="fotograf" value="nie" checked>nie
-
-                        <label for="wedInfo">Vaša predstava svadobného videa:</label>
-                        <input type="text" name="Predstava" placeholder="Vaše návrhy">
-                        <div class="g-recaptcha" data-sitekey="SITE KEY"></div>
-                        <input type="submit" value="Odoslať">
-                        </div>
-
-                        </div>
-
-                    </form>
+              <label class="js_translate" for="photograph">Máte už svadobného fotografa?</label>
+              <section style="justify-content:center">
+                <article style="display: inline-flex;max-width: 50px;margin-right: 50px;">
+                <input class="js_translate" class="radioBtn" type="radio" name="fotograf" value="áno"><span class="js_translate">Áno</span>
                 </article>
-            <aside></aside>
-        </section>
-    </main>
-    <footer></footer>
+                <article style="display: inline-flex;max-width: 50px;">
+                <input class="js_translate" class="radioBtn" type="radio" name="fotograf" value="nie" checked><span class="js_translate">Nie</span>
+                </article>
+
+
+              </section>
+
+            </article>
+
+            <article>
+              <label class="js_translate" for="wedInfo">Vaša predstava svadobného videa</label>
+              <textarea type="text" name="idea" placeholder="Vaše návrhy" style="height:184px;"></textarea>
+              <div id="reCa" class="g-recaptcha" data-sitekey="6Lc9YYkUAAAAACIvoCWGwTcKPJTdpxyd1AsMWKLK"></div>
+            </article>
+          </section>
+
+          <button class="formBtn js_translate" type="submit" value="Odoslať">Odoslať</button>
+        </form>
+      </article>
+    </section>
+    <footer>
+      <section style="justify-content:center;">
+        <article class="FBlink">
+          <a href="https://www.facebook.com/pages/category/Movie-Television-Studio/Shoot-The-Door-Studio-114432685624477/"><img style="vertical-align: middle; padding-right:5px;" src="sources/icons/fb.svg" />facebook</a>
+        </article>
+        <article class="EMlink">
+          <a href="mailto:shootthedoor@gmail.com" target="_top"><img style="vertical-align: middle; padding-right:5px;" src="sources/icons/at.svg" />email</a>
+        </article>
+        <article class="YTlink">
+          <a href="https://www.youtube.com/channel/UCW3a_ZOT1CgDjS1B9JcsvJA"><img style="vertical-align: middle; padding-right:5px;" src="sources/icons/yt.svg" />youtube</a>
+        </article>
+      </section>
+    </footer>
+  </main>
+
 </body>
 
 <script src="js/jquery.min.js"></script>
-<!-- <script src="js/navbar.js"></script> -->
+<script src="js/navbar.js"></script>
 <script src="js/vanilla.js"></script>
+<script src="js/translateJson.json"></script>
+<script src="js/translate.js"></script>
+
 
 
 </html>

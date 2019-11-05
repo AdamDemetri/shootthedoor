@@ -9,7 +9,7 @@ navbarToggle.addEventListener('click', function() {
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("myDropdown").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it
@@ -26,3 +26,20 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+updateMemberPics();
+
+function updateMemberPics() {
+  if ($(window).width() < 800) {
+    let change = document.getElementById('changehtml');
+    change.innerHTML = '<img class="introTextAnimation" src="sources/podklady/STDwed.svg" alt="Shoot the door weddings" style="width:100%;padding-top:60px;">';
+
+  } else {
+    console.log('nejde to');
+  }
+}
+
+$(document).ready(function() {
+  $(this).scrollTop(0);
+});

@@ -1,8 +1,8 @@
 // Menu toggle for mobile
-$(document).ready(function(){
-	$('#nav-icon4').click(function(){
-		$(this).toggleClass('open');
-	});
+$(document).ready(function() {
+  $('#nav-icon4').click(function() {
+    $(this).toggleClass('open');
+  });
 });
 
 $(document).ready(function() {
@@ -43,19 +43,29 @@ $(document).ready(function() {
 // top:0;
 // transition: ex. top ease 0.5s;
 
-// let prevScrollPos = window.pageYOffset;
-// const navbar = document.getElementById('navbar');
-//
-// window.onscroll = function() {
-//   let currentScrollPos = window.pageYOffset;
-//
-//   if (prevScrollPos > currentScrollPos) {
-//     navbar.style.top = '0';
-//   } else {
-//     navbar.style.top = '-20px';
-//   }
-//   prevScrollPos = currentScrollPos;
-// }
+if ($(window).width() < 800) {
+  console.log('navbar not hiding');
+} else {
+  navbarHiding();
+}
+
+
+function navbarHiding() {
+  let prevScrollPos = window.pageYOffset;
+  const navbar = document.getElementById('navbar');
+
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+      // console.log(prevScrollPos)
+      // console.log(currentScrollPos);;
+      navbar.style.top = '0';
+    } else {
+      // navbar.style.top = '-15px';
+    }
+    prevScrollPos = currentScrollPos;
+  }
+}
 
 // end
 
@@ -67,4 +77,14 @@ $('a[href*="#"]').on('click', function(e) {
   $('html, body').animate({
     scrollTop: $($(this).attr('href')).offset().top
   }, 500, 'swing');
+  if ($(window).width() < 800) {
+  $('#menu').toggleClass('active');
+}
 });
+
+//
+// $(document).click(function(e) {
+// 	if (!$(e.target).is('#navbar') && $('#menu').hasClass('active')) {
+//     	$('#menu').removeClass('active');
+//     }
+// });
